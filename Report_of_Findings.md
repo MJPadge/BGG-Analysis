@@ -7,17 +7,17 @@ I used a statistical classification model to understand what makes a game popula
 
 The below graph shows how a games perceived quality is distributed:
 
-![Distribution_of_Quality](../images/Distribution_of_Quality.png)
+![Distribution_of_Quality](./images/Distribution_of_Quality.png)
 
 This one shows how popularity is distributed:
 
-![Distribution_of_Popularity](../images/Distribution_of_Popularity.png)
+![Distribution_of_Popularity](./images/Distribution_of_Popularity.png)
 
 We can see that it is very difficult for a game to break away from the norm.
 
 The Correlation Matrix shows which game features are correlated with one another:
 
-![Correlation_Matrix](../images/Correlation_Matrix.png)
+![Correlation_Matrix](./images/Correlation_Matrix.png)
 
 - **Complexity** has a relationship with several variables so could be a strong statistical contender.
 - The strong link between **Popularity** and **Quality** is reassuring. Good games are more popular etc.
@@ -27,7 +27,7 @@ The Correlation Matrix shows which game features are correlated with one another
 
 The below scatterplot places every board game on an axis of Popularity vs Quality. The best of the best games have been highlighted with a yellow square:
 
-![QvsP_Scatter](../images/QvsP_Scatter.png)
+![QvsP_Scatter](./images/QvsP_Scatter.png)
 
 The graph shows the trend of increased quality results in higher popularity.
 
@@ -40,7 +40,7 @@ The graph shows the trend of increased quality results in higher popularity.
 
 The model identified several key game features that matter.
 
-![Feature_Importance](../images/Feature_Importance.png)
+![Feature_Importance](./images/Feature_Importance.png)
 
 - **Complexity** – Games that are more complex tend to have better long-term engagement and higher ratings.
 - **Release Year** – More recently published games tend to score higher while very old classic games tend to score lower.
@@ -58,14 +58,14 @@ When tested, the model correctly classified 98.9% of predictions.
 - The model is very accurate at predicting if a game will not achieve “Great Game” status, 99.9%.
 - However, it struggles more when predicting if a game will be great, predicting 38.0% of “Great Games”.
 
-![Model_Stats](../images/Model_Stats.png)
+![Model_Stats](./images/Model_Stats.png)
 
 ## Error Handling
 
 - **Type I Error** - In 0.1% of cases, the model predicted a game would achieve greatness, when in fact, it did not.
 - **Type II Error** - In 62.0% of cases, the model predicted the game would not achieve greatness when, in fact, it did. (Bhandari, 2021)
 
-![Confusion_Matrix](../images/Confusion_Matrix.png)
+![Confusion_Matrix](./images/Confusion_Matrix.png)
 
 This is better for game developers where the model is unlikely to give false hope that a game will perform well. However, it may come across as overly critical of games that will perform well.
 
