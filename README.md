@@ -15,6 +15,7 @@ The board game market has grown significantly in recent years like a popularity 
 The dataset has been compiled on Kaggle by users BwandoWando and Fotopoulos Vasileios:
 https://www.kaggle.com/datasets/bwandowando/boardgamegeek-board-games-reviews-jan-2025/data
 https://www.kaggle.com/datasets/fotopoulosvasileios/board-games-info-from-boardgamegeek-com
+
 Raw data has been scraped from the Board Game Geek website comprises of:
 - Board Game Data
 - Review Data
